@@ -6,7 +6,7 @@ Arduino sketches and Python scripts for Zomerkamp 2013
 What should it do?
 ------------------
 
-The automagical shoesize measurer consists of a servo with 2 arms, attached to the base and rotator of the servo.
+The automagical shoesize measurer consists of [a servo with 2 arms](http://i.imgur.com/PAlHHej.jpg?1), attached to the base and rotator of the servo.
 On each arm's end, there is a copper plate and a screw. Together, the copper plate and the screw are a simple switch.
 
 The servo rotates the arms together, bringing the sensors closer together. 
