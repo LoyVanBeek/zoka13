@@ -61,7 +61,7 @@ void loop()
   rightSensor = digitalRead(buttonPinRight);
   leftSensor = digitalRead(buttonPinLeft);
   
-  if (rightSensor == HIGH || leftSensor == HIGH) 
+  if (rightSensor == HIGH && leftSensor == HIGH) 
   {
     _direction = 0; //Stop when both bottons pushed
     Serial.println("BOTH_TOUCH");
