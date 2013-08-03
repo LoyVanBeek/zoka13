@@ -17,4 +17,5 @@ When the PC receives the signal, the angle is converted to a shoe size and possi
 The PC then send back a string (ATM does not care what) and then the arms open up again.
 When a second signal arrives, the arms start closing again and everything repeats.
 
-I still have to build a state machine (Why is it always state machines!?) or something to make this behavior.
+The Arduino should implement this state machine:
+http://plantuml.com/plantuml/img/2ov9B4bLy2z8pUCA1ZETS_ABC_FIaNYfAL0EI1L8YWl4KD3LjOCfjb9mpiyhoSmhJUM2Yi1bKrEi51oBYZBBKbCSItmpyx0gy4_AIaqkySWiuOA8W2MXjY6P3HM1ooARd5W10000
